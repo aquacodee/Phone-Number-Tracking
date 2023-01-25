@@ -16,7 +16,7 @@ print(location)
 service_provider = carrier.name_for_number(number, 'en')
 print(service_provider)
 #API Key
-key = "7930290e770645f592b2d4171ab0c906"
+key = "INSERT OPENCAGE API KEY"
 geocoder = OpenCageGeocode(key)
 query = str(location)
 result = geocoder.geocode(query)
